@@ -17,7 +17,7 @@ class Welcome extends Application{
         
         $this->data['pagebody'] = 'Welcome';
         
-        $gym_info = $this->GymDB->important_pic(1);
+        $gym_info = $this->GymDB->important_pic();
        
         $this->data['name'] = $gym_info['name'];
         $this->data['image'] = $gym_info['image'];
