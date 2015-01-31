@@ -10,26 +10,26 @@
         <link rel="stylesheet" type="text/css" media="all" href="css/lightbox.css" />
     </head>
     <body>
-        <div id="wrapper">
-            <div id="header">
-                <span class="myhead">Simple Image Gallery</span>
-                <span class="mynav">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/gallery">Gallery</a></li>
-                        <li><a href="/about">About</a></li>
-                    </ul>
-                </span>
+        <a href="/"><img class="banner" src="/data/images/BANNER.png"/></a>
+        <nav class="navbar">
+            <div class="navbar-inner">
+                <span class="brand">AIM GYM</span>
+            <ul class="nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/membership">Membership</a></li>
+                <li><a href="/program">Programs</a></li>
+                <li><a href="/faq">FAQ's</a></li>
+            </ul>
             </div>
-            <div class="alone"></div>
-            <div id="content">
-                {content}
-            </div>
-            <div id="footer" class="span12">
-                Copyright &copy; 2014,  <a href="mailto:someone@somewhere.com">Me</a>.
-            </div>
+        </nav>
+        <!--footer -->
+        <div class ="wrapper">
+            
+            {content}
+
         </div>
-        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script> 
-        <script type="text/javascript" src="js/lightbox.min.js"></script> 
+    </body>
+</html>
     </body>
 </html>
