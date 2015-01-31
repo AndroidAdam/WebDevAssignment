@@ -3,14 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>{pagetitle}</title>
-        <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
-        <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" media="all" href="css/lightbox.css" />
+        
+        <link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../assets/css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../assets/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+        
+    </head>
     </head>
     <body>
-        <a href="/"><img class="banner" src="/data/images/BANNER.png"/></a>
+        <a href="/"><img class="banner" src="../data/images/BANNER.png"/></a>
         <nav class="navbar">
             <div class="navbar-inner">
                 <span class="brand">AIM GYM</span>
