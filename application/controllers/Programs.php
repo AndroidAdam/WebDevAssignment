@@ -17,7 +17,7 @@ class Programs extends Application{
         
         $this->data['pagebody'] = 'Programs';
         
-        $gym_info = $this->gymdb->get(4);
+        $gym_info = $this->GymDB->get(4);
        
         $this->data['name'] = $gym_info['name'];
         $this->data['image'] = $gym_info['image'];

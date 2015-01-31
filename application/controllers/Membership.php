@@ -17,7 +17,7 @@ class Membership extends Application{
         
         $this->data['pagebody'] = 'Membership';
         
-        $gym_info = $this->gymdb->get(3);
+        $gym_info = $this->GymDB->get(3);
        
         $this->data['name'] = $gym_info['name'];
         $this->data['image'] = $gym_info['image'];

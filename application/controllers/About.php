@@ -17,7 +17,7 @@ class About extends Application{
         
         $this->data['pagebody'] = 'About';
         
-        $gym_info = $this->gymdb->get(2);
+        $gym_info = $this->GymDB->get(2);
        
         $this->data['name'] = $gym_info['name'];
         $this->data['image'] = $gym_info['image'];

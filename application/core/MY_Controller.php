@@ -27,7 +27,7 @@ class Application extends CI_Controller {
     {        
 	//$this->data['menubar'] = build_menu_bar($this->choices);
 	$this->data['content'] = $this->parser->parse($this->data['pagebody'], $this->data, true);
-	$this->data['data'] = &$this->data;
+	//$this->data['data'] = &$this->data;
 	$this->parser->parse('Template', $this->data);
     }
 }

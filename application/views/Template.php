@@ -27,7 +27,7 @@
             </div>
         </nav>
         
-        <--start of content-->
+        <!--start of content-->
         <div class ="wrapper">
             
             {content}

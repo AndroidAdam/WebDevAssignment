@@ -17,7 +17,7 @@ class FAQ extends Application{
         
         $this->data['pagebody'] = 'FAQ';
         
-        $gym_info = $this->gymdb->get(5);
+        $gym_info = $this->GymDB->last();
        
         $this->data['name'] = $gym_info['name'];
         $this->data['image'] = $gym_info['image'];
