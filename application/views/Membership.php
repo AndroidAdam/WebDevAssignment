@@ -4,6 +4,7 @@ if (!defined('APPPATH'))
 ?>
 <div class="row">
     
+    <!--membership information-->
     <div id="home-main" class="span8">
          <img src="{image}"/>
         <h2>{name}</h2>
