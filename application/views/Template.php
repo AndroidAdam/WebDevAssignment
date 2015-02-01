@@ -13,7 +13,7 @@
     </head>
     </head>
     <body>
-        <a href="/"><img class="banner" src="../data/images/BANNER.png"/></a>
+        <a href="/"><img class="banner" src="../data/images/weights_banner.jpg"/></a>
         <nav class="navbar">
             <div class="navbar-inner">
                 <span class="brand">AIM GYM</span>
