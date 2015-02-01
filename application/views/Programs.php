@@ -2,15 +2,12 @@
     <div id="home-main" class="span8">
         
     <!-- main content -->
-        <h2>About The Project</h2>
-        
-        <h4>AIM Fitness</h4>
-        <h4>Templates</h4>
-        <p>The vision of the website is to feature a header photo spanning the top of the page which will be directly
-            succeeded by a menu bar featuring links to all relevant pages of the website, including a login bar at the far right. The colour scheme will feature light, eye-pleasing tones, and photos will be prevalent throughout all pages as seen fit. </p>
-          
+        <h4>Yoga & pilates mat classes</h4>
+        <p>Create harmony within yourself and your environment, integrate the body, the mind, and the spirit. Balance your emotions, actions and intelligence. Exercise, breathe and meditate.
 
-    
+Please sign in for each class that you are taking online</p>
+        <h4>20/20/20 classes</h4>
+        <p>An intelligent and effective workout which includes a combination of cardio, dynamic stretching and weight training. 20 minutes of cardio, 20 minutes of strength, and 20 minutes of core training and flexibility in one class! This allows you to sample a little bit of everything</p>
 
     <!--Programs Image-->
     
