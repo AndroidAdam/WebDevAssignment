@@ -1,24 +1,22 @@
 <div class="row">
     <div id="home-main" class="span8">
-        <h2>About The Project</h2>
+        <h2>About</h2>
         
-        <p>The vision of the website is to feature a header photo spanning the top of the page which will be directly
-            succeeded by a menu bar featuring links to all relevant pages of the website, including a login bar at the far right. The colour scheme will feature light, eye-pleasing tones, and photos will be prevalent throughout all pages as seen fit. </p>
+        <p>AIM Gym opened it’s doors in Downtown Vancouver in 2007. This brand new state-of-the-art club redefined the standard for gyms across the Lower Mainland.  To keep up with demand for more locations, AIM Gym merged with Fitness World in 2009, creating the AIM Fitness World and Sports Club brand. With over 50 years of experience in the fitness industry our dedication to our members is unsurpassed. 
+
+<br>Inline with Steve’s vision of promoting a healthy and balanced lifestyle for all, we have designed our gyms to maximize our members’ experience. With the latest equipment, exclusive group fitness classes, and the best certified personal trainers we are here to help you achieve long term results. 
+
+<br>Our world class team will help you understand the fundamentals of an effective exercise program and will keep you informed on the latest in health and fitness. At AIM Fitness World and Sports Club we believe in providing the highest quality service in a fun and friendly environment. </p>
         
-    </div>
+    
     <!-- end main content-->
     
-    <!-- side content -->
-    <div id="home-side" class="span4">
-        <div class="col-md-3">
-          <ul class="nav nav-pills nav-stacked">
-          {categories}
-          <li><a href="/{category}"><h4>{category}</h4></a></li>
-          {/categories}
-          </ul>
-        </div>
+    
+         <img src="{image}"/>
+        <h2>{name}</h2>
+        <p>{description}<br/>
+        </p>
     </div>
-    <!-- end side content -->
    
 </div>
 <!-- end row -->

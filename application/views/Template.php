@@ -13,7 +13,7 @@
     </head>
     </head>
     <body>
-        <a href="/"><img class="banner" src="../data/images/BANNER.png"/></a>
+        <a href="/"><img class="banner" src="../data/images/weights_banner.jpg"/></a>
         <nav class="navbar">
             <div class="navbar-inner">
                 <span class="brand">AIM GYM</span>
@@ -22,12 +22,13 @@
                 <li><a href="/About">About</a></li>
                 <li><a href="/Membership">Membership</a></li>
                 <li><a href="/Programs">Programs</a></li>
+                <li><a href="/Locations">Locations</a></li>
                 <li><a href="/Faq">FAQ's</a></li>
             </ul>
             </div>
         </nav>
         
-        <--start of content-->
+        <!--start of content-->
         <div class ="wrapper">
             
             {content}
